@@ -15,7 +15,7 @@ spec:
         app: frontend
     spec:
       containers:
-      - image: koderover.tencentcloudcr.com/koderover-demo/frontend:latest
+      - image: {{.IMAGE}}
         name: frontend
         ports:
         - containerPort: 80
